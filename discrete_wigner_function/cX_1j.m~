@@ -1,0 +1,11 @@
+function [ cX ] = cX_1j(d, n, j )
+%cX_1j spits out qudit the controlled X operator from qutrit 1 to j on n
+%qutrits
+
+c_X=eye
+for i=0:d-1
+    cX=blkdiag(cX,kron(eye(d^(j-2)),prime_weyl_operators(d,0,i)));
+end
+
+end
+

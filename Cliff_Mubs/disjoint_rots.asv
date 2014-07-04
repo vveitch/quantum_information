@@ -1,0 +1,5 @@
+function [ disj_rots ] = disjoint_rots( n )
+%DISJOINT_ROTS this returns a set of 
+
+end
+

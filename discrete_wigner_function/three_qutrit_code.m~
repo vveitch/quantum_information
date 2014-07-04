@@ -1,0 +1,7 @@
+function [ rhout ] = three_qutrit_code( rhin,  )
+%THREE_QUTRIT_CODE Summary of this function goes here
+%   Detailed explanation goes here
+
+
+end
+

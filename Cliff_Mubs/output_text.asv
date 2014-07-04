@@ -1,0 +1,8 @@
+n=3;
+M = stabilizers(n);
+dlmwrite('d8_stabs.txt', M(:,:,1:1), ' ')
+
+for j=1:14
+    dlmwrite('d8_stabs.txt', M(:,:,1:1), '-append', ...
+        'roffset', 1, 'delimiter', ' ')
+end
